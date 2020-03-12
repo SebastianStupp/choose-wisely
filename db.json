@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "VoteOne": "Affe"
+    },
+    {
+      "id": 2,
+      "VoteTwo": "Tiger"
+    },
+    {
+      "id": 3,
+      "VoteThree": "Affe"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
