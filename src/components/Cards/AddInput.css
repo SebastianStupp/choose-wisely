@@ -1,0 +1,19 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.answerOne {
+  background-color: burlywood;
+  width: 100%;
+}
+
+.answerTwo {
+  background-color: burlywood;
+  width: 100%;
+}
+
+.answerThree {
+  background-color: burlywood;
+  width: 100%;
+}

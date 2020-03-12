@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 80%;
+  width: 100%;
+  background-image: url("./temple.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+
+.arrowImg {
+  width: 100px;
+  height: 35px;
+  align-items: flex-end;
+}
