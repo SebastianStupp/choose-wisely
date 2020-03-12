@@ -1,26 +1,52 @@
 {
   "posts": [
     {
-      "id": 1,
-      "VoteOne": "Affe"
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 11
     },
     {
-      "id": 2,
-      "VoteTwo": "Tiger"
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 12
     },
     {
-      "id": 3,
-      "VoteThree": "Affe"
-    }
-  ],
-  "comments": [
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 13
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 14
+    },
+    {
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 15
+    },
+    {
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 16
+    },
+    {
+      "answerOne": "1",
+      "answerTwo": "2",
+      "answerThree": "3",
+      "id": 17
+    },
+    {
+      "answerOne": "kk",
+      "answerTwo": "",
+      "answerThree": "",
+      "id": 18
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

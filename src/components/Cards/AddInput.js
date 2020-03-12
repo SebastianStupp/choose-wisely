@@ -1,19 +1,30 @@
 import React from 'react';
 
 function AddInput() {
-  const [answerOne, setAnswerOne] = React.useState('Test');
-  const [answerTwo, setAnswerTwo] = React.useState('Test');
-  const [answerThree, setAnswerThree] = React.useState('Test');
+
+  const [answerOne, setAnswerOne] = React.useState("");
+  const [answerTwo, setAnswerTwo] = React.useState("");
+  const [answerThree, setAnswerThree] = React.useState("");
+
 
   function handleSubmit(event) {
     event.preventDefault();
+    const poll = {
+      answerOne: answerOne,
+      answerTwo: answerTwo,
+      answerThree: answerThree
+    };
+
+    fetch(
+      process.env.REACT_APP_API ||
+        "https://my-json-server.typicode.com/SebastianStupp/Choose-Wisely/posts",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(poll)
+      }
+    );
   }
-
-  const poll = [answerOne, answerTwo, answerThree];
-
-  const pollString = JSON.stringify(poll);
-
-  alert(pollString);
 
   return (
     <form className="formInput" onSubmit={handleSubmit}>
@@ -39,6 +50,7 @@ function AddInput() {
           setAnswerThree(event.target.value);
         }}
       ></input>
+      <button>Button des Button wegens</button>
     </form>
   );
 }
