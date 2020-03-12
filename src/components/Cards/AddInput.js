@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function AddInput() {
-  const [answerOne, setAnswerOne] = React.useState("Test");
-  const [answerTwo, setAnswerTwo] = React.useState("Test");
-  const [answerThree, setAnswerThree] = React.useState("Test");
+  const [answerOne, setAnswerOne] = React.useState('Test');
+  const [answerTwo, setAnswerTwo] = React.useState('Test');
+  const [answerThree, setAnswerThree] = React.useState('Test');
 
   function handleSubmit(event) {
     event.preventDefault();
