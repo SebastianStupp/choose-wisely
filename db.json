@@ -2,17 +2,15 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "VoteOne": "Affe"
     },
     {
-      "id": 2
+      "id": 2,
+      "VoteTwo": "Tiger"
     },
     {
-      "id": 3
-    },
-    {
-      "id": 4
+      "id": 3,
+      "VoteThree": "Affe"
     }
   ],
   "comments": [
