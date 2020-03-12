@@ -1,9 +1,9 @@
-import React from "react";
-import "./Header.css";
-import head from "./head.png";
+import React from 'react';
+import './Header.css';
+import head from './head.png';
 
 function Header() {
-  const headTitle = "Question Creator";
+  const headTitle = 'Question Creator';
   return (
     <header className="header">
       <div className="heading">{headTitle}</div>

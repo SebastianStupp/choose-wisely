@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
 function AddInput() {
+
   const [answerOne, setAnswerOne] = React.useState("");
   const [answerTwo, setAnswerTwo] = React.useState("");
   const [answerThree, setAnswerThree] = React.useState("");
+
 
   function handleSubmit(event) {
     event.preventDefault();

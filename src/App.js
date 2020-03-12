@@ -1,10 +1,10 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Header from "./components/Header/Header";
-import Add from "./Pages/Add";
-import Vote from "./Pages/Vote";
-import Result from "./Pages/Result";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
+import Header from './components/Header/Header';
+import Add from './Pages/Add';
+import Vote from './Pages/Vote';
+import Result from './Pages/Result';
 
 // import BottomImg from "./temple.jpg";
 // import "./components/Header";
