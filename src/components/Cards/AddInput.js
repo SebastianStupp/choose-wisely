@@ -13,11 +13,15 @@ function AddInput() {
       answerThree: answerThree
     };
 
-    fetch(process.env.REACT_APP_API, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(poll)
-    });
+    fetch(
+      process.env.REACT_APP_API ||
+        "https://my-json-server.typicode.com/SebastianStupp/Choose-Wisely/posts",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(poll)
+      }
+    );
   }
 
   return (
