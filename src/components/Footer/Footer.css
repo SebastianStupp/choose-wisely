@@ -2,16 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 80%;
+  flex-grow: 1;
   width: 100%;
   background-image: url("./temple.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 0px;
-}
-
-.arrowImg {
-  width: 100px;
-  height: 35px;
-  align-items: flex-end;
+  bottom: 0;
+  left: 0;
 }
